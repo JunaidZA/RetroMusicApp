@@ -30,8 +30,8 @@ android {
              
         }
         debug {
-            applicationIdSuffix '.debug'
-            versionNameSuffix ' DEBUG'
+         //   applicationIdSuffix '.debug'
+         //   versionNameSuffix ' DEBUG'
         }
     }
     flavorDimensions "default"
