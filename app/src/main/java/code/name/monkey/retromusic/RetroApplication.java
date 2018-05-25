@@ -22,7 +22,7 @@ public class RetroApplication extends MultiDexApplication {
   }
 
   public static boolean isProVersion() {
-    return BuildConfig.DEBUG || app.billingProcessor.isPurchased(PRO_VERSION_PRODUCT_ID);
+    return true;
   }
 
   @Override
